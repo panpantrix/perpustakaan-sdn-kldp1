@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4f46e5">
+  <title>Dokumentasi — PerpusDigital</title>
+  <link rel="icon" href="../assets/icons/book.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark">📚</span><span data-config="shortName">PerpusDigital</span></a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Menu">Menu</button>
+      <nav class="nav" id="site-nav">
+        <a href="../index.html" data-nav="home">Beranda</a>
+        <a href="katalog.html" data-nav="katalog">Katalog</a>
+        <a href="login.html" data-nav="login">Login</a>
+        <a href="dashboard.html" data-nav="dashboard">Dashboard</a>
+        <a class="btn btn-primary btn-sm" href="#" data-live-app target="_blank" rel="noopener">Aplikasi Live</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h2>Dokumentasi</h2>
+      <p class="lead">Diagram penuh (Case/Activity/ERD) dilampirkan di laporan UKK; ringkasan di bawah.</p>
+
+      <div class="card" style="margin-bottom:14px">
+        <h3>Struktur folder (#94)</h3>
+        <pre style="margin:0;font-size:12px;overflow:auto;color:var(--muted)">/
+├── index.html          (#67)
+├── config.js           (#68)
+├── assets/css/style.css (#70)
+├── assets/js/script.js  (#69)
+├── data/data.json       (#71)
+├── README.md            (#72)
+├── pages/ …
+├── docs/ceklist-ukk.html
+└── .nojekyll</pre>
+      </div>
+
+      <div class="card" style="margin-bottom:14px">
+        <h3>ERD ringkas (#6)</h3>
+        <p class="muted" style="margin:0">Entitas utama aplikasi PHP: admin, petugas, anggota, buku, kategori, transaksi, notifikasi, pengaturan. Relasi: anggota 1—N transaksi —1 buku; buku N—1 kategori.</p>
+      </div>
+
+      <div class="card" style="margin-bottom:14px">
+        <h3>Alur userflow ringkas (#5)</h3>
+        <p class="muted" style="margin:0">Login → Dashboard → Katalog → Pinjam → (Petugas/Admin) Setujui kembali → Notifikasi / Denda.</p>
+      </div>
+
+      <div class="card" style="margin-bottom:14px">
+        <h3>Database &amp; script (aplikasi PHP) (#42–66)</h3>
+        <p class="muted" style="margin:0">Tipe data, percabangan, perulangan, array, function, CRUD, JOIN, stored procedure, function SQL, trigger, COMMIT/ROLLBACK — diimplementasikan di backend PHP/MySQL (InfinityFree), bukan di Pages.</p>
+      </div>
+
+      <div class="card">
+        <h3>Instalasi GitHub Pages (#93)</h3>
+        <ol style="margin:0;padding-left:18px;color:var(--muted);font-size:13px">
+          <li>Extract file → upload ke repo root (bukan file .zip)</li>
+          <li>Settings → Pages → branch main / root</li>
+          <li>config.js → <code>basePath: "/perpus-sdn-kldp"</code></li>
+          <li>URL: <a href="https://panpantrix.github.io/perpus-sdn-kldp/">https://panpantrix.github.io/perpus-sdn-kldp/</a></li>
+        </ol>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong data-config="shortName">PerpusDigital</strong></div>
+      <div>
+        <a href="../pages/dokumentasi.html">Docs</a> ·
+        <a href="../pages/pengujian.html">Pengujian</a> ·
+        <a href="../pages/help.html">Help</a> ·
+        <a href="../docs/ceklist-ukk.html">Ceklist</a> ·
+        <a href="../pages/kontak.html">Kontak</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../config.js"></script>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

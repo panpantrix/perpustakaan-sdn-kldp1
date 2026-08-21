@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 — Halaman tidak ditemukan</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/icons/book.svg" type="image/svg+xml">
+  <script src="config.js"></script>
+  <script>
+    // fix path jika di subfolder GitHub Pages
+    (function () {
+      var base = (window.APP_CONFIG && window.APP_CONFIG.basePath) || "";
+      if (base && location.pathname.indexOf(base) === 0) {
+        document.querySelector('link[rel="stylesheet"]').href = base + "/assets/css/style.css";
+        document.querySelector('link[rel="icon"]').href = base + "/assets/icons/book.svg";
+      }
+    })();
+  </script>
+</head>
+<body>
+  <main class="section">
+    <div class="container" style="text-align:center;padding:60px 0">
+      <h1 style="font-size:3rem;margin:0">404</h1>
+      <p class="lead">Halaman tidak ditemukan.</p>
+      <p>
+        <a class="btn btn-primary" href="index.html" id="home-link">Beranda</a>
+        <a class="btn btn-outline" href="#" data-live-app target="_blank" rel="noopener">Aplikasi Live</a>
+      </p>
+    </div>
+  </main>
+  <script src="assets/js/script.js"></script>
+  <script>
+    (function () {
+      var base = (window.APP_CONFIG && window.APP_CONFIG.basePath) || "";
+      if (base) {
+        var a = document.getElementById("home-link");
+        if (a) a.href = base + "/";
+      }
+    })();
+  </script>
+</body>
+</html>

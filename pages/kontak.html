@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4f46e5">
+  <title>Kontak — PerpusDigital</title>
+  <link rel="icon" href="../assets/icons/book.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark">📚</span><span data-config="shortName">PerpusDigital</span></a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Menu">Menu</button>
+      <nav class="nav" id="site-nav">
+        <a href="../index.html" data-nav="home">Beranda</a>
+        <a href="katalog.html" data-nav="katalog">Katalog</a>
+        <a href="login.html" data-nav="login">Login</a>
+        <a href="dashboard.html" data-nav="dashboard">Dashboard</a>
+        <a class="btn btn-primary btn-sm" href="#" data-live-app target="_blank" rel="noopener">Aplikasi Live</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h2>Kontak admin</h2>
+
+      <div class="card" style="margin-bottom:18px">
+        <h3 data-config="contact.name">Admin</h3>
+        <p class="muted" style="margin:4px 0">Alamat: <span data-config="contact.address">SDN 1 Kalidadap</span></p>
+        <p class="muted" style="margin:4px 0">Email: <a href="#" data-email-link>perpus@sdn1kalidadap.sch.id</a></p>
+        <p class="muted" style="margin:4px 0 12px">WA: +62882005509840</p>
+        <a class="btn btn-wa" href="#" data-wa-link target="_blank" rel="noopener">Chat WhatsApp Admin</a>
+      </div>
+
+      <div class="card">
+        <h3>Komentar (#17)</h3>
+        <form id="comment-form">
+          <div class="field">
+            <label for="c-name">Nama</label>
+            <input id="c-name" type="text" placeholder="Nama Anda">
+          </div>
+          <div class="field">
+            <label for="c-text">Komentar</label>
+            <textarea id="c-text" rows="3" placeholder="Tulis komentar minimal 3 karakter"></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Kirim</button>
+        </form>
+        <div id="comment-list" style="margin-top:14px"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong data-config="shortName">PerpusDigital</strong></div>
+      <div>
+        <a href="../pages/dokumentasi.html">Docs</a> ·
+        <a href="../pages/pengujian.html">Pengujian</a> ·
+        <a href="../pages/help.html">Help</a> ·
+        <a href="../docs/ceklist-ukk.html">Ceklist</a> ·
+        <a href="../pages/kontak.html">Kontak</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../config.js"></script>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

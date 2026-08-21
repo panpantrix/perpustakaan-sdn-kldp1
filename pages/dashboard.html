@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4f46e5">
+  <title>Dashboard — PerpusDigital</title>
+  <link rel="icon" href="../assets/icons/book.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark">📚</span><span data-config="shortName">PerpusDigital</span></a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Menu">Menu</button>
+      <nav class="nav" id="site-nav">
+        <a href="../index.html" data-nav="home">Beranda</a>
+        <a href="katalog.html" data-nav="katalog">Katalog</a>
+        <a href="login.html" data-nav="login">Login</a>
+        <a href="dashboard.html" data-nav="dashboard">Dashboard</a>
+        <a class="btn btn-primary btn-sm" href="#" data-live-app target="_blank" rel="noopener">Aplikasi Live</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h2>Dashboard</h2>
+      <p class="lead">Ringkasan katalog &amp; grafik. Data lengkap di aplikasi live.</p>
+
+      <h3>Buku per kategori</h3>
+      <div class="card" style="margin-bottom:18px">
+        <canvas id="chart-kategori" width="640" height="220" style="max-width:100%;height:auto"></canvas>
+      </div>
+
+      <h3>Daftar buku</h3>
+      <div style="overflow-x:auto">
+        <table class="data">
+          <thead><tr><th>Kode</th><th>Judul</th><th>Stok</th><th>Status</th></tr></thead>
+          <tbody id="report-body"><tr><td colspan="4">Memuat…</td></tr></tbody>
+        </table>
+      </div>
+      <p style="margin-top:12px">
+        <button type="button" class="btn btn-outline btn-sm" onclick="window.print()">Cetak</button>
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong data-config="shortName">PerpusDigital</strong></div>
+      <div>
+        <a href="dokumentasi.html">Docs</a> ·
+        <a href="pengujian.html">Pengujian</a> ·
+        <a href="help.html">Help</a> ·
+        <a href="../docs/ceklist-ukk.html">Ceklist</a> ·
+        <a href="kontak.html">Kontak</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../config.js"></script>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

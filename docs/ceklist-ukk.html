@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4f46e5">
+  <title>Ceklist Target UKK 2026 — 1–102</title>
+  <link rel="icon" href="../assets/icons/book.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    .ok{color:#4ade80;font-weight:600}
+    .part{color:#fbbf24;font-weight:600}
+    .php{color:#38bdf8;font-weight:600}
+    .no{color:#64748b}
+    table.data td:first-child{width:48px;text-align:center;font-variant-numeric:tabular-nums}
+    table.data th{position:sticky;top:0;z-index:2}
+    .filter-bar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;align-items:center}
+    .filter-bar button{
+      background:var(--bg2);border:1px solid var(--border);color:var(--muted);
+      border-radius:8px;padding:6px 12px;font-size:12px;cursor:pointer;font-weight:600
+    }
+    .filter-bar button.active,.filter-bar button:hover{background:rgba(99,102,241,.2);color:var(--text);border-color:rgba(99,102,241,.4)}
+    .sum{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+    .sum span{font-size:12px;padding:6px 10px;border-radius:8px;background:var(--bg2);border:1px solid var(--border)}
+    .sum .n{font-weight:700;color:var(--text)}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark">📚</span> Ceklist UKK</a>
+                  <nav class="nav" id="site-nav">
+        <a href="../index.html" data-nav="home">Beranda</a>
+        <a href="../pages/katalog.html" data-nav="katalog">Katalog</a>
+        <a href="../pages/login.html" data-nav="login">Login</a>
+        <a href="../pages/dashboard.html" data-nav="dashboard">Dashboard</a>
+        <a class="btn btn-primary btn-sm" href="#" data-live-app target="_blank" rel="noopener">Aplikasi Live</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h2>DAFTAR TARGET PRODUK PRA UJI UKK 2026</h2>
+      <p class="lead">
+        Aplikasi transaksi penuh ada di <strong>Hosting InfinityFree</strong>.
+        Situs ini (GitHub Pages) menyediakan struktur UI, katalog sample, mock login/dashboard, dokumentasi, dan ceklist.
+      </p>
+
+      <div class="sum" id="summary">
+        <span><span class="ok">● Pages</span> <span class="n" id="cnt-pages">—</span></span>
+        <span><span class="php">● PHP / Infinity</span> <span class="n" id="cnt-php">—</span></span>
+        <span><span class="part">● Sebagian</span> <span class="n" id="cnt-part">—</span></span>
+        <span>Total target: <span class="n">102</span></span>
+      </div>
+
+      <div class="filter-bar">
+        <button type="button" class="active" data-filter="all">Semua</button>
+        <button type="button" data-filter="pages">Pages</button>
+        <button type="button" data-filter="php">PHP</button>
+        <button type="button" data-filter="part">Sebagian</button>
+      </div>
+
+      <div style="overflow-x:auto">
+        <table class="data" id="ukk-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Target</th>
+              <th>Status</th>
+              <th>Lokasi / Keterangan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-s="part"><td>1</td><td>Wireframe Mockup UI</td><td class="part">Sebagian</td><td>UI Pages + laporan UKK</td></tr>
+            <tr data-s="part"><td>2</td><td>UX design Case Diagram</td><td class="part">Sebagian</td><td>dokumentasi.html + laporan</td></tr>
+            <tr data-s="part"><td>3</td><td>Activity Diagram</td><td class="part">Sebagian</td><td>dokumentasi.html + laporan</td></tr>
+            <tr data-s="part"><td>4</td><td>Algoritma</td><td class="part">Sebagian</td><td>dokumentasi.html + laporan</td></tr>
+            <tr data-s="part"><td>5</td><td>Flowchart Userflow</td><td class="part">Sebagian</td><td>dokumentasi.html (userflow ringkas)</td></tr>
+            <tr data-s="part"><td>6</td><td>ERD (Entity Relationship Diagram)</td><td class="part">Sebagian</td><td>dokumentasi.html + schema SQL di app PHP</td></tr>
+
+            <tr data-s="pages"><td>7</td><td>LandingPage Text</td><td class="ok">Pages</td><td>index.html (hero + tagline)</td></tr>
+            <tr data-s="part"><td>8</td><td>Gambar</td><td class="part">Sebagian</td><td>assets/img/ (folder siap) + cover di katalog</td></tr>
+            <tr data-s="pages"><td>9</td><td>Grafik</td><td class="ok">Pages</td><td>dashboard.html — canvas chart kategori</td></tr>
+            <tr data-s="part"><td>10</td><td>Multimedia MP3 / Suara / Notif</td><td class="part">Sebagian</td><td>Notifikasi di app PHP; folder media siap di Pages</td></tr>
+            <tr data-s="part"><td>11</td><td>Video</td><td class="part">Sebagian</td><td>assets/video/ (folder siap); demo di app PHP</td></tr>
+            <tr data-s="pages"><td>12</td><td>Icon</td><td class="ok">Pages</td><td>assets/icons/book.svg + emoji brand</td></tr>
+
+            <tr data-s="pages"><td>13</td><td>Header</td><td class="ok">Pages</td><td>site-header di semua halaman</td></tr>
+            <tr data-s="pages"><td>14</td><td>Footer</td><td class="ok">Pages</td><td>site-footer di semua halaman</td></tr>
+            <tr data-s="pages"><td>15</td><td>Sidebar</td><td class="ok">Pages</td><td>sidebar navigasi UKK (responsive)</td></tr>
+
+            <tr data-s="pages"><td>16</td><td>Help</td><td class="ok">Pages</td><td>pages/help.html (manual pengguna)</td></tr>
+            <tr data-s="pages"><td>17</td><td>Komentar</td><td class="ok">Pages</td><td>pages/kontak.html (localStorage)</td></tr>
+            <tr data-s="pages"><td>18</td><td>Badge / Bintang</td><td class="ok">Pages</td><td>katalog — rating ★ + badge stok</td></tr>
+            <tr data-s="pages"><td>19</td><td>Informasi Availability Transaksi</td><td class="ok">Pages</td><td>badge Tersedia / Terbatas / Tidak tersedia</td></tr>
+            <tr data-s="pages"><td>20</td><td>Kualitas Barang</td><td class="ok">Pages</td><td>rating bintang di data.json &amp; kartu buku</td></tr>
+            <tr data-s="pages"><td>21</td><td>Sold</td><td class="ok">Pages</td><td>badge “Dipinjam N×” dari field sold</td></tr>
+
+            <tr data-s="pages"><td>22</td><td>Login Page — Register Name</td><td class="ok">Pages</td><td>pages/login.html (field mock)</td></tr>
+            <tr data-s="pages"><td>23</td><td>ID number</td><td class="ok">Pages</td><td>pages/login.html — NIS / ID Number</td></tr>
+            <tr data-s="pages"><td>24</td><td>Passkey</td><td class="ok">Pages</td><td>pages/login.html — field Passkey</td></tr>
+            <tr data-s="pages"><td>25</td><td>Login Name</td><td class="ok">Pages</td><td>pages/login.html — Login Name</td></tr>
+            <tr data-s="pages"><td>26</td><td>Password</td><td class="ok">Pages</td><td>pages/login.html — Password + validasi</td></tr>
+
+            <tr data-s="php"><td>27</td><td>User Dasb Transaksional Stored Procedure</td><td class="php">PHP</td><td>Aplikasi live InfinityFree</td></tr>
+            <tr data-s="php"><td>28</td><td>Function</td><td class="php">PHP</td><td>Aplikasi live InfinityFree</td></tr>
+            <tr data-s="php"><td>29</td><td>Trigger</td><td class="php">PHP</td><td>Aplikasi live InfinityFree</td></tr>
+            <tr data-s="php"><td>30</td><td>Commit</td><td class="php">PHP</td><td>Aplikasi live InfinityFree</td></tr>
+            <tr data-s="php"><td>31</td><td>Rollback</td><td class="php">PHP</td><td>Aplikasi live InfinityFree</td></tr>
+
+            <tr data-s="part"><td>32</td><td>Admin Dasb Report Table</td><td class="part">Sebagian</td><td>dashboard.html (tabel mock) + report PHP</td></tr>
+            <tr data-s="part"><td>33</td><td>Graph</td><td class="part">Sebagian</td><td>canvas chart Pages + grafik app PHP</td></tr>
+            <tr data-s="part"><td>34</td><td>Print</td><td class="part">Sebagian</td><td>tombol print di dashboard mock + app PHP</td></tr>
+
+            <tr data-s="php"><td>35</td><td>Petugas Dasb Proofing</td><td class="php">PHP</td><td>Aplikasi live (pengembalian / proofing)</td></tr>
+            <tr data-s="php"><td>36</td><td>Aset Transaksional</td><td class="php">PHP</td><td>Aplikasi live</td></tr>
+            <tr data-s="php"><td>37</td><td>Validasi User</td><td class="php">PHP</td><td>Aplikasi live (+ mock validasi di Pages)</td></tr>
+            <tr data-s="php"><td>38</td><td>Admin</td><td class="php">PHP</td><td>Role admin di aplikasi live</td></tr>
+            <tr data-s="php"><td>39</td><td>Petugas</td><td class="php">PHP</td><td>Role petugas di aplikasi live</td></tr>
+
+            <tr data-s="pages"><td>40</td><td>Error handling (Notifikasi) TRUE</td><td class="ok">Pages</td><td>login mock alert-true + app PHP</td></tr>
+            <tr data-s="pages"><td>41</td><td>FALSE</td><td class="ok">Pages</td><td>login mock alert-false + app PHP</td></tr>
+
+            <tr data-s="php"><td>42</td><td>Code script — Penentuan tipe data</td><td class="php">PHP</td><td>Source PHP di InfinityFree</td></tr>
+            <tr data-s="php"><td>43</td><td>Percabangan</td><td class="php">PHP</td><td>Source PHP (+ if di script.js Pages)</td></tr>
+            <tr data-s="php"><td>44</td><td>Perulangan</td><td class="php">PHP</td><td>Source PHP (+ loop di script.js)</td></tr>
+            <tr data-s="php"><td>45</td><td>Array</td><td class="php">PHP</td><td>Source PHP (+ array buku di data.json/JS)</td></tr>
+            <tr data-s="php"><td>46</td><td>Function</td><td class="php">PHP</td><td>Source PHP (+ function di script.js)</td></tr>
+            <tr data-s="php"><td>47</td><td>Procedure</td><td class="php">PHP</td><td>Stored procedure di MySQL app</td></tr>
+            <tr data-s="php"><td>48</td><td>File Access</td><td class="php">PHP</td><td>Aplikasi live</td></tr>
+            <tr data-s="php"><td>49</td><td>CRUD Database</td><td class="php">PHP</td><td>Aplikasi live</td></tr>
+            <tr data-s="php"><td>50</td><td>Stored Procedure</td><td class="php">PHP</td><td>MySQL app InfinityFree</td></tr>
+            <tr data-s="php"><td>51</td><td>Function (SQL)</td><td class="php">PHP</td><td>MySQL app InfinityFree</td></tr>
+            <tr data-s="php"><td>52</td><td>Trigger</td><td class="php">PHP</td><td>MySQL app InfinityFree</td></tr>
+            <tr data-s="php"><td>53</td><td>Commit</td><td class="php">PHP</td><td>Transaksi DB di app</td></tr>
+            <tr data-s="php"><td>54</td><td>Rollback</td><td class="php">PHP</td><td>Transaksi DB di app</td></tr>
+
+            <tr data-s="php"><td>55</td><td>SQL — CREATE DATABASE</td><td class="php">PHP</td><td>schema.sql di app</td></tr>
+            <tr data-s="php"><td>56</td><td>CREATE TABLE</td><td class="php">PHP</td><td>schema.sql di app</td></tr>
+            <tr data-s="php"><td>57</td><td>INSERT</td><td class="php">PHP</td><td>DML di app</td></tr>
+            <tr data-s="php"><td>58</td><td>UPDATE</td><td class="php">PHP</td><td>DML di app</td></tr>
+            <tr data-s="php"><td>59</td><td>DELETE</td><td class="php">PHP</td><td>DML di app</td></tr>
+            <tr data-s="php"><td>60</td><td>SELECT</td><td class="php">PHP</td><td>Query di app</td></tr>
+            <tr data-s="php"><td>61</td><td>JOIN</td><td class="php">PHP</td><td>Query JOIN di app</td></tr>
+
+            <tr data-s="part"><td>62</td><td>Debug Error — Identifikasi</td><td class="part">Sebagian</td><td>pengujian.html + praktik di app</td></tr>
+            <tr data-s="part"><td>63</td><td>Syntax Error</td><td class="part">Sebagian</td><td>Dokumentasi pengujian + app</td></tr>
+            <tr data-s="part"><td>64</td><td>Logic Error</td><td class="part">Sebagian</td><td>Dokumentasi pengujian + app</td></tr>
+            <tr data-s="part"><td>65</td><td>Runtime Error</td><td class="part">Sebagian</td><td>Dokumentasi pengujian + app</td></tr>
+            <tr data-s="part"><td>66</td><td>Db Related Error</td><td class="part">Sebagian</td><td>Dokumentasi pengujian + app</td></tr>
+
+            <tr data-s="pages"><td>67</td><td>Deployment Repository — index.html</td><td class="ok">Pages</td><td>/index.html</td></tr>
+            <tr data-s="pages"><td>68</td><td>config.js</td><td class="ok">Pages</td><td>/config.js</td></tr>
+            <tr data-s="pages"><td>69</td><td>script.js</td><td class="ok">Pages</td><td>/assets/js/script.js</td></tr>
+            <tr data-s="pages"><td>70</td><td>style.css</td><td class="ok">Pages</td><td>/assets/css/style.css</td></tr>
+            <tr data-s="pages"><td>71</td><td>data.json</td><td class="ok">Pages</td><td>/data/data.json</td></tr>
+            <tr data-s="pages"><td>72</td><td>README.md</td><td class="ok">Pages</td><td>/README.md</td></tr>
+
+            <tr data-s="pages"><td>73</td><td>Web design captions</td><td class="ok">Pages</td><td>Teks UI, meta description, label</td></tr>
+            <tr data-s="part"><td>74</td><td>CNAME</td><td class="part">Sebagian</td><td>Opsional (custom domain GitHub Pages)</td></tr>
+            <tr data-s="pages"><td>75</td><td>Assets Pict</td><td class="ok">Pages</td><td>assets/img/ + icon</td></tr>
+            <tr data-s="part"><td>76</td><td>Video (assets)</td><td class="part">Sebagian</td><td>assets/video/ folder siap</td></tr>
+            <tr data-s="pages"><td>77</td><td>Icon (assets)</td><td class="ok">Pages</td><td>assets/icons/</td></tr>
+            <tr data-s="pages"><td>78</td><td>GitHub Pages</td><td class="ok">Pages</td><td>Repo ini (Settings → Pages)</td></tr>
+            <tr data-s="php"><td>79</td><td>Hosting infinity</td><td class="php">PHP</td><td>peminjamanbuku.infinityfreeapp.com</td></tr>
+            <tr data-s="part"><td>80</td><td>Lainnya</td><td class="part">Sebagian</td><td>404.html, .nojekyll, dll.</td></tr>
+
+            <tr data-s="pages"><td>81</td><td>Uji System — Dokumen Pengujian / Test Case</td><td class="ok">Pages</td><td>pengujian.html + data.json test_cases</td></tr>
+            <tr data-s="pages"><td>82</td><td>Data Uji</td><td class="ok">Pages</td><td>data.json + form mock</td></tr>
+            <tr data-s="pages"><td>83</td><td>Skenario Pengujian</td><td class="ok">Pages</td><td>pengujian.html</td></tr>
+            <tr data-s="pages"><td>84</td><td>Uji Login</td><td class="ok">Pages</td><td>login mock TRUE/FALSE + app PHP</td></tr>
+            <tr data-s="php"><td>85</td><td>Uji CRUD</td><td class="php">PHP</td><td>CRUD buku/anggota di app live</td></tr>
+            <tr data-s="part"><td>86</td><td>Uji Validasi</td><td class="part">Sebagian</td><td>Validasi client Pages + server PHP</td></tr>
+            <tr data-s="php"><td>87</td><td>Uji Database</td><td class="php">PHP</td><td>JOIN, stok, integritas di app</td></tr>
+            <tr data-s="pages"><td>88</td><td>Uji Responsif</td><td class="ok">Pages</td><td>CSS media query (HP/tablet/desktop)</td></tr>
+            <tr data-s="part"><td>89</td><td>Uji Hosting</td><td class="part">Sebagian</td><td>GitHub Pages + InfinityFree</td></tr>
+            <tr data-s="part"><td>90</td><td>Evaluasi</td><td class="part">Sebagian</td><td>pengujian.html + laporan UKK</td></tr>
+            <tr data-s="pages"><td>91</td><td>Web uji target</td><td class="ok">Pages</td><td>Halaman pengujian &amp; ceklist ini</td></tr>
+            <tr data-s="pages"><td>92</td><td>Data uji target</td><td class="ok">Pages</td><td>data.json (buku + test_cases)</td></tr>
+
+            <tr data-s="pages"><td>93</td><td>Dokumentasi — Cara instalasi</td><td class="ok">Pages</td><td>dokumentasi.html + README.md</td></tr>
+            <tr data-s="pages"><td>94</td><td>Struktur folder</td><td class="ok">Pages</td><td>dokumentasi.html + README.md</td></tr>
+            <tr data-s="part"><td>95</td><td>Penjelasan method</td><td class="part">Sebagian</td><td>dokumentasi.html + source PHP</td></tr>
+            <tr data-s="part"><td>96</td><td>Dokumentasi modul</td><td class="part">Sebagian</td><td>dokumentasi.html + laporan</td></tr>
+            <tr data-s="part"><td>97</td><td>Dokumentasi API (bila ada)</td><td class="part">Sebagian</td><td>Opsional / app PHP</td></tr>
+            <tr data-s="part"><td>98</td><td>Dokumentasi Wireframe</td><td class="part">Sebagian</td><td>Laporan UKK + UI Pages sebagai mockup</td></tr>
+            <tr data-s="part"><td>99</td><td>Screenshot aplikasi</td><td class="part">Sebagian</td><td>Dilampirkan di laporan UKK</td></tr>
+            <tr data-s="part"><td>100</td><td>QR / bar code link</td><td class="part">Sebagian</td><td>Bisa ditambah di laporan / halaman kontak</td></tr>
+            <tr data-s="pages"><td>101</td><td>Help Manual pengguna</td><td class="ok">Pages</td><td>pages/help.html</td></tr>
+            <tr data-s="part"><td>102</td><td>Penjelasan fungsi</td><td class="part">Sebagian</td><td>dokumentasi.html + komentar di script.js / PHP</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="muted" style="margin-top:16px;font-size:13px">
+        Keterangan status:
+        <span class="ok">Pages</span> = sudah ada / didemonstrasikan di situs GitHub Pages ini ·
+        <span class="php">PHP</span> = diimplementasikan di aplikasi live InfinityFree ·
+        <span class="part">Sebagian</span> = dokumentasi/mock di Pages + implementasi penuh di PHP atau laporan.
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong data-config="shortName">PerpusDigital</strong><br>
+        <span class="muted">Pra Uji UKK 2026 · GitHub Pages + InfinityFree</span>
+      </div>
+      <div>
+        <a href="../index.html">Beranda</a> ·
+        <a href="#" data-live-app target="_blank" rel="noopener">Aplikasi Live</a>
+      </div>
+    </div>
+  </footer>
+<script>
+    (function () {
+      var rows = Array.prototype.slice.call(document.querySelectorAll("#ukk-table tbody tr"));
+      var cnt = { pages: 0, php: 0, part: 0 };
+      rows.forEach(function (r) {
+        var s = r.getAttribute("data-s");
+        if (cnt[s] != null) cnt[s]++;
+      });
+      document.getElementById("cnt-pages").textContent = cnt.pages;
+      document.getElementById("cnt-php").textContent = cnt.php;
+      document.getElementById("cnt-part").textContent = cnt.part;
+
+      document.querySelectorAll(".filter-bar button").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          document.querySelectorAll(".filter-bar button").forEach(function (b) { b.classList.remove("active"); });
+          btn.classList.add("active");
+          var f = btn.getAttribute("data-filter");
+          rows.forEach(function (r) {
+            r.style.display = (f === "all" || r.getAttribute("data-s") === f) ? "" : "none";
+          });
+        });
+      });
+    })();
+  </script>
+  <script src="../config.js"></script>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

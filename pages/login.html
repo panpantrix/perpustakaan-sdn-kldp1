@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4f46e5">
+  <title>Login — PerpusDigital</title>
+  <link rel="icon" href="../assets/icons/book.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark">📚</span><span data-config="shortName">PerpusDigital</span></a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Menu">Menu</button>
+      <nav class="nav" id="site-nav">
+        <a href="../index.html" data-nav="home">Beranda</a>
+        <a href="katalog.html" data-nav="katalog">Katalog</a>
+        <a href="login.html" data-nav="login">Login</a>
+        <a href="dashboard.html" data-nav="dashboard">Dashboard</a>
+        <a class="btn btn-primary btn-sm" href="#" data-live-app target="_blank" rel="noopener">Aplikasi Live</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container" style="max-width:440px">
+      <h2>Login / Register</h2>
+      <p class="lead">Mock validasi. Login nyata di aplikasi live.</p>
+      <div class="card">
+        <form id="login-mock-form" autocomplete="off">
+          <div class="field">
+            <label for="login-name">Login Name (#25)</label>
+            <input id="login-name" type="text" placeholder="username" name="username">
+          </div>
+          <div class="field">
+            <label for="reg-name">Register Name (#22)</label>
+            <input id="reg-name" type="text" placeholder="nama lengkap">
+          </div>
+          <div class="field">
+            <label for="id-number">ID Number / NIS (#23)</label>
+            <input id="id-number" type="text" placeholder="2025001">
+          </div>
+          <div class="field">
+            <label for="login-pass">Password (#26)</label>
+            <input id="login-pass" type="password" placeholder="min. 6 karakter" name="password">
+          </div>
+          <div class="field">
+            <label for="passkey">Passkey (#24)</label>
+            <input id="passkey" type="password" placeholder="opsional demo">
+          </div>
+          <button class="btn btn-primary" type="submit" style="width:100%">Uji validasi</button>
+          <div id="login-msg" class="alert" style="display:block;min-height:22px" role="status"></div>
+        </form>
+      </div>
+      
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong data-config="shortName">PerpusDigital</strong></div>
+      <div>
+        <a href="../pages/dokumentasi.html">Docs</a> ·
+        <a href="../pages/pengujian.html">Pengujian</a> ·
+        <a href="../pages/help.html">Help</a> ·
+        <a href="../docs/ceklist-ukk.html">Ceklist</a> ·
+        <a href="../pages/kontak.html">Kontak</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../config.js"></script>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

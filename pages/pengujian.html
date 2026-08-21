@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4f46e5">
+  <title>Pengujian — PerpusDigital</title>
+  <link rel="icon" href="../assets/icons/book.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html"><span class="brand-mark">📚</span><span data-config="shortName">PerpusDigital</span></a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Menu">Menu</button>
+      <nav class="nav" id="site-nav">
+        <a href="../index.html" data-nav="home">Beranda</a>
+        <a href="katalog.html" data-nav="katalog">Katalog</a>
+        <a href="login.html" data-nav="login">Login</a>
+        <a href="dashboard.html" data-nav="dashboard">Dashboard</a>
+        <a class="btn btn-primary btn-sm" href="#" data-live-app target="_blank" rel="noopener">Aplikasi Live</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h2>Pengujian</h2>
+      <p class="lead">Sample test case dari data.json.</p>
+
+      <div style="overflow-x:auto">
+        <table class="data" id="tc-table">
+          <thead>
+            <tr><th>ID</th><th>Modul</th><th>Skenario</th><th>Data uji</th><th>Hasil diharapkan</th></tr>
+          </thead>
+          <tbody id="tc-body" data-json="../data/data.json">
+            <tr><td colspan="5">Memuat…</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="grid-3" style="margin-top:20px">
+        <div class="card"><h3>Uji Login #84</h3><p>Benar / salah / kosong → TRUE/FALSE.</p></div>
+        <div class="card"><h3>Uji CRUD #85</h3><p>Tambah ubah hapus buku/anggota di app PHP.</p></div>
+        <div class="card"><h3>Uji Validasi #86</h3><p>Input wajib, format NIS, email.</p></div>
+        <div class="card"><h3>Uji Database #87</h3><p>SELECT JOIN, integritas stok.</p></div>
+        <div class="card"><h3>Uji Responsif #88</h3><p>HP / tablet / desktop pada Pages &amp; app.</p></div>
+        <div class="card"><h3>Uji Hosting #89</h3><p>GitHub Pages + InfinityFree.</p></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong data-config="shortName">PerpusDigital</strong></div>
+      <div>
+        <a href="../pages/dokumentasi.html">Docs</a> ·
+        <a href="../pages/pengujian.html">Pengujian</a> ·
+        <a href="../pages/help.html">Help</a> ·
+        <a href="../docs/ceklist-ukk.html">Ceklist</a> ·
+        <a href="../pages/kontak.html">Kontak</a>
+      </div>
+    </div>
+  </footer>
+  <script src="../config.js"></script>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>
