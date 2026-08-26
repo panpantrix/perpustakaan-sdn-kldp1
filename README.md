@@ -8,7 +8,7 @@ Situs **statis** untuk dokumentasi, katalog contoh, mock UI login/dashboard, dan
 |---------|-----|
 | **GitHub Pages** | [https://panpantrix.github.io/perpustakaan-sdn-kldp1/](https://panpantrix.github.io/perpustakaan-sdn-kldp1/) |
 | **Aplikasi live (PHP/MySQL)** | [https://peminjamanbuku.infinityfreeapp.com/](https://peminjamanbuku.infinityfreeapp.com/) |
-| **Dokumen UKK** | [Buka DOKUMEN_UKK_PERPUSTAKAAN_DIGITAL.docx](./DOKUMEN_UKK_PERPUSTAKAAN_DIGITAL%20(1).docx) |
+| **Dokumen UKK (buka di browser)** | [Buka dokumen](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fpanpantrix%2Fperpustakaan-sdn-kldp1%2Fmain%2FDOKUMEN_UKK_PERPUSTAKAAN_DIGITAL%20%281%29.docx) |
 ## File wajib UKK Pages (#67–72)
 
 | # | File | Path |
