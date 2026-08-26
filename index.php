@@ -19,23 +19,23 @@
         <a href="pages/katalog.html" data-nav="katalog">Katalog</a>
         <a href="pages/login.html" data-nav="login">Login</a>
         <a href="pages/dashboard.html" data-nav="dashboard">Dashboard</a>
-        <a class="btn btn-primary btn-sm" href="#" data-live-app target="_blank" rel="noopener">Aplikasi Live</a>
+        <a class="btn btn-primary btn-sm" href="https://peminjamanbuku.infinityfreeapp.com/" data-live-app target="_blank" rel="noopener noreferrer">Aplikasi Live</a>
       </nav>
     </div>
   </header>
-
   <main>
     <section class="hero">
       <div class="container">
         <h1 data-config="siteName">Perpustakaan Digital SDN 1 Kalidadap</h1>
         <p data-config="tagline">Sistem informasi peminjaman buku sekolah</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#" data-live-app target="_blank" rel="noopener">Buka Aplikasi Live</a>
+          <a class="btn btn-primary" href="https://peminjamanbuku.infinityfreeapp.com/" data-live-app target="_blank" rel="noopener noreferrer">Buka Aplikasi Live</a>
           <a class="btn btn-outline" href="pages/katalog.html">Lihat Katalog</a>
+          <a class="btn btn-primary" href="docs/DOKUMEN_UKK_PERPUSTAKAAN_DIGITAL.docx" download>Unduh Dokumen UKK</a>
+          <a class="btn btn-outline" href="docs/DOKUMEN_UKK_PERPUSTAKAAN_DIGITAL.docx" target="_blank" rel="noopener">Buka Dokumen UKK</a>
         </div>
       </div>
     </section>
-
     <section class="section">
       <div class="container">
         <div class="grid-3">
@@ -55,7 +55,6 @@
       </div>
     </section>
   </main>
-
   <footer class="site-footer">
     <div class="container footer-inner">
       <div>
@@ -67,7 +66,9 @@
         <a href="pages/pengujian.html">Pengujian</a> ·
         <a href="pages/help.html">Help</a> ·
         <a href="docs/ceklist-ukk.html">Ceklist</a> ·
-        <a href="pages/kontak.html">Kontak</a>
+        <a href="pages/kontak.html">Kontak</a> ·
+        <a href="https://peminjamanbuku.infinityfreeapp.com/" data-live-app target="_blank" rel="noopener noreferrer">Aplikasi Live</a> ·
+        <a href="docs/DOKUMEN_UKK_PERPUSTAKAAN_DIGITAL.docx" download>Dokumen UKK</a>
       </div>
     </div>
   </footer>
