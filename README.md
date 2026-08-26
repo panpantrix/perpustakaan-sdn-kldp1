@@ -1,12 +1,14 @@
 # Perpustakaan Digital SDN 1 Kalidadap — GitHub Pages
 
+# Perpustakaan Digital SDN 1 Kalidadap — GitHub Pages
+
 Situs **statis** untuk dokumentasi, katalog contoh, mock UI login/dashboard, dan ceklist target Pra Uji UKK 2026.
 
 | Layanan | URL |
 |---------|-----|
-| **GitHub Pages** | https://panpantrix.github.io/perpus-sdn-kldp/ |
-| **Aplikasi live (PHP/MySQL)** | https://peminjamanbuku.infinityfreeapp.com/ |
-
+| **GitHub Pages** | [https://panpantrix.github.io/perpustakaan-sdn-kldp1/](https://panpantrix.github.io/perpustakaan-sdn-kldp1/) |
+| **Aplikasi live (PHP/MySQL)** | [https://peminjamanbuku.infinityfreeapp.com/](https://peminjamanbuku.infinityfreeapp.com/) |
+| **Dokumen UKK** | [Buka DOKUMEN_UKK_PERPUSTAKAAN_DIGITAL.docx](./DOKUMEN_UKK_PERPUSTAKAAN_DIGITAL%20(1).docx) |
 ## File wajib UKK Pages (#67–72)
 
 | # | File | Path |
