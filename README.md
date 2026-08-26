@@ -1,7 +1,5 @@
 # Perpustakaan Digital SDN 1 Kalidadap — GitHub Pages
 
-# Perpustakaan Digital SDN 1 Kalidadap — GitHub Pages
-
 Situs **statis** untuk dokumentasi, katalog contoh, mock UI login/dashboard, dan ceklist target Pra Uji UKK 2026.
 
 | Layanan | URL |
