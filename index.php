@@ -31,7 +31,9 @@
         <div class="hero-actions">
           <a class="btn btn-primary" href="https://peminjamanbuku.infinityfreeapp.com/" data-live-app target="_blank" rel="noopener noreferrer">Buka Aplikasi Live</a>
           <a class="btn btn-outline" href="pages/katalog.html">Lihat Katalog</a>
-          <a class="btn btn-primary" href="docs/DOKUMEN_UKK_PERPUSTAKAAN_DIGITAL.docx" download>Unduh Dokumen UKK</a>
+          <a class="btn btn-primary"
+              href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2Fpanpantrix%2Fperpustakaan-sdn-kldp1%2Fmain%2FDOKUMEN_UKK_PERPUSTAKAAN_DIGITAL%20%281%29.docx"
+              target="_blank" rel="noopener noreferrer">Buka Dokumen UKK</a>
           <a class="btn btn-outline" href="docs/DOKUMEN_UKK_PERPUSTAKAAN_DIGITAL.docx" target="_blank" rel="noopener">Buka Dokumen UKK</a>
         </div>
       </div>
